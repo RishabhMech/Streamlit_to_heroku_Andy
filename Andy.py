@@ -30,7 +30,7 @@ We've got range of services, built just for you!
 
 ### gif from local file
 import base64
-file_ = open(r"C:\Users\rishabh.pandey\Downloads\Tasks\Chatbot\streamlit/hairstyle.gif", "rb")
+file_ = open(r"media/hairstyle.gif", "rb")
 contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
